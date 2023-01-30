@@ -8,8 +8,8 @@ import Experience from './components/Experience/Experience';
 import Works from './components/Works/Works';
 import Portafolio from './components/Portafolio/Portafolio';
 import Recomendation from './components/Recomendation/Recomendation';
-/* import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer"; */
+import Contact from "./components/Contact/Contact";
+/* import Footer from "./components/Footer/Footer"; */
 import { useContext } from 'react';
 import { themeContext } from './Context';
 function App() {
@@ -30,8 +30,8 @@ function App() {
 			<Works />
 			<Portafolio />
 			<Recomendation />
-			{/*  <Contact />
-      <Footer /> */}
+			 <Contact />
+     {/*  <Footer /> */}
 		</div>
 	);
 }

@@ -148,6 +148,7 @@
 		height: 35rem;
 		padding: 0;
 		gap: 2rem;
+		margin-top: 3px;
 	}
 
 	.w-right {
@@ -159,6 +160,7 @@
 	.w-mainCircle {
 		position: static;
 	}
+
 	.w-backCircle {
 		left: 8rem !important;
 	}
