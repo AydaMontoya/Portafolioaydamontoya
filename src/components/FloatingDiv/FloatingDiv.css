@@ -1,24 +1,25 @@
+/** @format */
+
 .floatingDiv {
-    justify-content: space-around;
-    background: white;
-    box-shadow: var(--boxShadow);
-    border-radius: 17px;
-    display: flex;
-    align-items: center;
-    padding: 1px 18px 2px 2px;
-    height: 4.5rem;
-  }
-  .floatingDiv > img {
-    transform: scale(0.4);
-    width: 160px;
-    height: 160px;
-    margin: 0px;
-  }
-  .floatingDiv > span {
-    font-family: "Nunito", sans-serif; 
-    font-size: 19px;
-    /* yahan ye color add kia hy bad mein dark mode k waqt */
-    color: black;
-  }
-  
-  
+	justify-content: space-around;
+	background: white;
+	box-shadow: var(--boxShadow);
+	border-radius: 17px;
+	display: flex;
+	align-items: center;
+	padding: 1px 15px 2px 2px;
+	height: 4.5rem;
+}
+.floatingDiv > img {
+	transform: scale(0.4);
+	width: 130px;
+	height: 150px;
+	margin: 0px;
+}
+
+.floatingDiv > span {
+	font-family: 'Nunito', sans-serif;
+	font-size: 19px;
+	/* yahan ye color add kia hy bad mein dark mode k waqt */
+	color: black;
+}
