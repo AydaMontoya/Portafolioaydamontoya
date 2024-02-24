@@ -32,8 +32,10 @@ const Intro = () => {
 					<span style={{ color: darkMode ? 'white' : '' }}>Hello! I Am</span>
 					<span>Ayda Montoya Henao</span>
 					<span>
-						Frontend Developer with high level of experience in web designing
-						and development, producting the Quality work
+						I am a Certified Public Accountant with 6 years of experience.
+						Likewise, I am a Front End developer. Bilingual (English B1). I have
+						experience in project management and have the ability to lead and
+						direct work groups.
 					</span>
 				</div>
 				<Link to='contact' smooth={true} spy={true}>
@@ -48,7 +50,7 @@ const Intro = () => {
 						href='https://www.linkedin.com/in/ayda-yineth-montoya-henao-8609a0221/'
 						target='_blanck'
 					>
-						<img src={LinkedIn} alt='LinjedIn' />
+						<img src={LinkedIn} alt='LinkedIn' />
 					</a>
 					<a href='https://www.instagram.com/aydamontoya96/' target='_blanck'>
 						<img src={Instagram} alt='Instagram' />

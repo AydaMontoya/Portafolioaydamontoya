@@ -6,7 +6,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 5rem;
+	margin-top: 3rem;
 	flex-direction: column;
 	gap: 2rem;
 	position: relative;
@@ -101,6 +101,6 @@
 		text-align: center;
 	}
 	.t-wrapper {
-		margin-top: 2rem;
+		margin-top: -2rem;
 	}
 }

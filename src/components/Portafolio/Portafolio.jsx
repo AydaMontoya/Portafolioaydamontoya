@@ -40,7 +40,7 @@ const Portafolio = () => {
 				</SwiperSlide>
 				<SwiperSlide>
 					<a href='https://portafolioaydamontoya.vercel.app/'>
-						<img src={PortafolioAM} alt='' />
+						<img src={PortafolioAM} alt='portafolioAM' />
 					</a>
 				</SwiperSlide>
 				<SwiperSlide>

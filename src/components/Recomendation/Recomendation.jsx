@@ -1,6 +1,6 @@
 /** @format */
 
-import React from 'react';
+import React, {useContext} from 'react';
 import './Recomendation.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -10,8 +10,11 @@ import 'swiper/css/pagination';
 import profilePic1 from '../../img/profile1.jpg';
 import profilePic2 from '../../img/profile2.jpg';
 import profilePic3 from '../../img/profile3.jpg';
+import { themeContext } from '../../Context';
 
 const Recomendation = () => {
+	const theme = useContext(themeContext);
+	const darkMode = theme.state.darkMode;
 	const clients = [
 		{
 			img: profilePic1,
@@ -37,6 +40,18 @@ const Recomendation = () => {
 	];
 
 	return (
+		<div id='recomendation'>
+			{/* left side copy and paste from work section */}
+			<div className='w-left'>
+				<div className='awesome'>
+					{/* darkMode */}
+					<span style={{ color: darkMode ? 'white' : '' }}></span>
+					<div
+						className='blur s-blur1'
+						style={{ background: '#ABF1FF94' }}
+					></div>
+				</div>
+			</div>
 		<div className='t-wrapper' id='testimonial'>
 			<div className='t-heading'>
 				<span>Some </span>
@@ -68,6 +83,7 @@ const Recomendation = () => {
 				})}
 			</Swiper>
 		</div>
+	</div>	
 	);
 };
 

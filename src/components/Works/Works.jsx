@@ -5,11 +5,10 @@ import './Works.css';
 import prosper from '../../img/prosper.png';
 import datasoft from '../../img/datasoft.png';
 import emoji2 from '../../img/emoji2.png';
-import emoji1 from '../../img/emoji1.png';
+import etex from '../../img/etex.png';
 import fna from '../../img/fna.png';
 import { themeContext } from '../../Context';
 import { motion } from 'framer-motion';
-import { Link } from 'react-scroll';
 const Works = () => {
 	// context
 	const theme = useContext(themeContext);
@@ -23,22 +22,16 @@ const Works = () => {
 				<div className='awesome'>
 					{/* dark Mode */}
 					<span style={{ color: darkMode ? 'white' : '' }}>
-						Works for All these
+						Companies where
 					</span>
-					<span>Brands & Clients</span>
+					<span>I have worked</span>
 					<spane>
-						Lorem ispum is simpley dummy text of printing of printing Lorem
+						Over the years I have worked at these wonderful companies,
 						<br />
-						ispum is simpley dummy text of printingLorem ispum is simpley dummy
-						text
+						which have given me incredible knowledge not only professionally,
 						<br />
-						y dummy text of printingLorem
-						<br />
-						ispum is simpley dummy text of printing
+						but also in my personal growth.
 					</spane>
-					<Link to='contact' smooth={true} spy={true}>
-						<button className='button w-button'>Hire Me</button>
-					</Link>
 					<div
 						className='blur s-blur1'
 						style={{ background: '#ABF1FF94' }}
@@ -56,19 +49,39 @@ const Works = () => {
 					className='w-mainCircle'
 				>
 					<div className='w-secCircle'>
-						<img src={prosper} alt='' className='prosper' />
+						<a
+							href='https://www.linkedin.com/company/prospercityco/'
+							target='_blanck'
+						>
+							<img src={prosper} alt='' className='prosper' />
+						</a>
 					</div>
 					<div className='w-secCircle'>
-						<img src={datasoft} alt='' className='datasoft' />
+						<a
+							href='https://www.linkedin.com/company/datasoft-ingenier%C3%ADa/'
+							target='_blanck'
+						>
+							<img src={datasoft} alt='' className='datasoft' />
+						</a>
 					</div>
 					<div className='w-secCircle'>
 						<img src={emoji2} alt='' className='emoji2' />
 					</div>{' '}
 					<div className='w-secCircle'>
-						<img src={emoji1} alt='' className='emoji1' />
+						<a
+							href='https://www.linkedin.com/showcase/etex-colombia/'
+							target='_blanck'
+						>
+							<img src={etex} alt='' className='etex' />
+						</a>
 					</div>
 					<div className='w-secCircle'>
-						<img src={fna} alt='' className='fna' />
+						<a
+							href='https://www.linkedin.com/company/fondo-nacional-del-ahorro/'
+							target='_blanck'
+						>
+							<img src={fna} alt='' className='fna' />
+						</a>
 					</div>
 				</motion.div>
 				{/* background Circles */}

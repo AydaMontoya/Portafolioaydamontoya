@@ -15,30 +15,32 @@ const Experience = () => {
 					className='circle'
 					style={{ color: darkMode ? 'var(--orange)' : '' }}
 				>
-					8+
+					1+
 				</div>
-				<span style={{ color: darkMode ? 'white' : '' }}>Areas de trabajo </span>
-				<span>Areas de trabajo</span>
+				<span style={{ color: darkMode ? 'white' : '' }}>Developer </span>
+				<span>Updating every day</span>
 			</div>
 			<div className='achievement'>
 				<div
 					className='circle'
 					style={{ color: darkMode ? 'var(--orange)' : '' }}
 				>
-					20+
+					1+
 				</div>
-				<span style={{ color: darkMode ? 'white' : '' }}>Areas de trabajo </span>
-				<span>Areas de trabajo</span>
+				<span style={{ color: darkMode ? 'white' : '' }}>
+					Project management{' '}
+				</span>
+				<span>Learning and experimenting</span>
 			</div>
 			<div className='achievement'>
 				<div
 					className='circle'
 					style={{ color: darkMode ? 'var(--orange)' : '' }}
 				>
-					5+
+					6+
 				</div>
-				<span style={{ color: darkMode ? 'white' : '' }}>Areas de trabajo </span>
-				<span>Areas de trabajo</span>
+				<span style={{ color: darkMode ? 'white' : '' }}>Accounting</span>
+				<span>Practicing and updating</span>
 			</div>
 		</div>
 	);

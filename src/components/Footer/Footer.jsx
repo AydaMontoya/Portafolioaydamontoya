@@ -12,10 +12,10 @@ const Footer = () => {
 		<div className='footer'>
 			<img src={Wave} alt='' style={{ width: '100%' }} />
 			<div className='f-content'>
-                <div className='dat'>
-                <h4>aidamontoya96@gmail.com</h4>
-				<h4>312 326 17 08</h4>
-                </div>
+				<div className='dat'>
+					<h4>Email: aidamontoya96@gmail.com</h4>
+					<h4>Phone: +57 3123261708</h4>
+				</div>
 				<div className='f-icons'>
 					<a href='https://www.instagram.com/aydamontoya96/' target='_blanck'>
 						<Insta color='white' size={'3rem'} />

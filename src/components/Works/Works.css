@@ -29,14 +29,8 @@
 }
 .awesome > :nth-child(3) {
 	color: var(--gray);
-	font-size: 14px;
+	font-size: 16px;
 	margin-top: 1rem;
-}
-.w-button {
-	width: 8rem;
-	height: 2rem;
-	margin-top: 4rem;
-	padding: 2px;
 }
 
 /* right side */
@@ -58,22 +52,22 @@
 }
 
 .datasoft {
-	width: 157px;
+	width: 97px;
 	border-radius: 50%;
 }
 
 .prosper {
-	width: 157px;
+	width: 97px;
 	border-radius: 50%;
 }
 
 .fna {
-	width: 130px;
+	width: 98px;
 	border-radius: 20%;
 }
 
-.emoji1 {
-	width: 140px;
+.etex {
+	width: 98px;
 	border-radius: 50%;
 }
 
@@ -154,9 +148,10 @@
 	.w-right {
 		display: flex;
 		align-items: flex-start;
-		justify-content: start;
+		justify-content: flex-start;
 		transform: scale(0.7);
 	}
+
 	.w-mainCircle {
 		position: static;
 	}

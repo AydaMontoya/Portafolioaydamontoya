@@ -4,11 +4,11 @@
 	padding: 0 3rem 0 3rem;
 	display: flex;
 	height: 30rem;
-	margin-bottom: 8rem;
+	margin-bottom: 9rem;
 	margin-top: 9rem;
-	margin-bottom: 13rem;
+	margin-bottom: 10rem;
 	/* scroll view */
-	padding-top: 3rem;
+	padding-top: 2rem;
 }
 /* left side */
 .awesome {
@@ -65,7 +65,7 @@
 		flex-direction: column;
 		gap: 5rem;
 		height: 66rem;
-		padding: 0;
+		padding: 5rem 3rem 4rem 3rem;
 	}
 
 	.cards {

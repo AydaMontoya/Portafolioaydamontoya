@@ -22,10 +22,12 @@
 }
 .card > img {
 	transform: scale(0.6);
-	margin-bottom: -3rem;
+	margin-bottom: -2rem;
+	margin-top: -1rem;
+	width: 140px;
 }
 
-.head{
+.head {
 	font-weight: bold;
 	margin-top: 5px;
 }
